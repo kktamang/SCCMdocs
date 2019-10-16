@@ -67,6 +67,8 @@ To extend the schema for Configuration Manager:
 
 -   For each container, you grant permissions to the computer account of each primary and secondary site server that will publish data to that domain. Each account needs **Full Control** to the container with the advanced permission, **Apply onto**, equal to **This object and all descendant objects**.  
 
+Note: "System Management" container creates automatically. Therefore, there is no need to create manually.
+
 #### To add the container  
 
 1.  Use an account that has the **Create All Child Objects** permission on the **System** container in Active Directory Domain Services.  
